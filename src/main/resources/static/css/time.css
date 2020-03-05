@@ -1,0 +1,15 @@
+.time-block {
+    margin-left: -15px;
+}
+
+.time {
+    background: #5cb85c;
+    height: 60px;
+    opacity: 0.6;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+
+    width: 445px;
+    text-align: center;
+}
