@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPoolConfig;
 /**
  * @Author: Jvinh
  * @DateTime: 2020/2/13 16:33
- * @Description: TODO
+ * @Description: Redis工具类
  */
 public class RedisUtil {
 
