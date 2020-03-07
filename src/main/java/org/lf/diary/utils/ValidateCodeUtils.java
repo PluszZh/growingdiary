@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * @Author: Jvinh
  * @DateTime: 2020/2/7 20:24
- * @Description: TODO
+ * @Description: 验证码工具类
  */
 
 public class ValidateCodeUtils {

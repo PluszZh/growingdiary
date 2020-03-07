@@ -17,7 +17,4 @@ public class GrowingdiaryApplication {
         return new BCryptPasswordEncoder();
     }
 
-
-
-
 }
