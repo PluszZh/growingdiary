@@ -28,7 +28,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/updateUser",method = RequestMethod.POST)
-    public String updateUser(User user,HttpServletRequest request) {
+    public String updateUser(User user) {
         userService.saveUser(user);
         return "redirect:/self";
     }

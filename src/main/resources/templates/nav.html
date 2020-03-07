@@ -142,11 +142,11 @@
         <a href="/home" class="list-group-item" th:classappend="${action == '1'}? 'active':''">
             我的成长日记本
         </a>
-        <a href="/diaryList" class="list-group-item" th:classappend="${action == '2'}? 'active':''">我写过的日记</a>
-        <a href="/uvLog" class="list-group-item" th:classappend="${action == '7'}? 'active':''">我的UVLog</a>
+        <a href="/home/diaryList" class="list-group-item" th:classappend="${action == '2'}? 'active':''">我写过的日记</a>
+        <a href="/home/activity" class="list-group-item" th:classappend="${action == '7'}? 'active':''">我的活动</a>
         <a href="#" class="list-group-item" th:classappend="${action == '3'}? 'active':''">我上传的相册</a>
-        <a href="/write" class="list-group-item" th:classappend="${action == '4'}? 'active':''">写日记</a>
-        <a href="/self" class="list-group-item" th:classappend="${action == '5'}? 'active':''">个人资料</a>
+        <a href="/home/write" class="list-group-item" th:classappend="${action == '4'}? 'active':''">写日记</a>
+        <a href="/home/self" class="list-group-item" th:classappend="${action == '5'}? 'active':''">个人资料</a>
         <a href="#" class="list-group-item" th:classappend="${action == '6'}? 'active':''">设置中心</a>
     </div>
 </div>

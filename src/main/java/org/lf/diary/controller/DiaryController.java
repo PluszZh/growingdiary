@@ -31,7 +31,7 @@ public class DiaryController {
 
     @Autowired
     private CommentService commentService;
-    @RequestMapping("/diaryList")
+    @RequestMapping("/home/diaryList")
     public String diaryList(Model model,HttpServletRequest request) {
         User user = (User)request.getSession().getAttribute("user");
         List<Diary> diaryList = diaryService.getDiaryList(user.getId());

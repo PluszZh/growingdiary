@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class SelfController {
 
-    @RequestMapping("/self")
+    @RequestMapping("/home/self")
     public String self(Model model) {
 
         model.addAttribute("title","home");

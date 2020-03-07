@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @Controller
-public class UvLogController {
+public class ActivityController {
 
-    @RequestMapping("/uvLog")
+    @RequestMapping("/home/activity")
     public String uvLog(Model model) {
         model.addAttribute("action","7");
-        return "uvLog";
+        return "activity";
     }
 }

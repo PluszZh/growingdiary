@@ -23,7 +23,7 @@ public class WriteController {
     @Autowired
     private DiaryBookService diaryBookService;
 
-    @RequestMapping("/write")
+    @RequestMapping("/home/write")
     public String write(Model model, HttpServletRequest request) {
         User user = (User)request.getSession().getAttribute("user");
         List<DiaryBookVO> diaryBookVOList = diaryBookService.getAllTitle(user.getId());
