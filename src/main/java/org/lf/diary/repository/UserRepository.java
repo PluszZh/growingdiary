@@ -70,4 +70,12 @@ public interface UserRepository extends JpaRepository<User,Long>, JpaSpecificati
      */
     List<User> findAllByEmail(String email);
 
+
+    /**
+     * 用户名模糊匹配
+     * @param
+     */
+    @Query(value = "select * from user where username like %?1%",nativeQuery = true)
+    List<User> findByUsernameLike(String username);
+
 }
