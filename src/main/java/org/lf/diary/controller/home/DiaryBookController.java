@@ -1,4 +1,4 @@
-package org.lf.diary.controller;
+package org.lf.diary.controller.home;
 
 import org.lf.diary.core.Result;
 import org.lf.diary.core.ResultGenerator;

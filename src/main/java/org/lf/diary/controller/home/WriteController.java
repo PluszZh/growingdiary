@@ -1,4 +1,4 @@
-package org.lf.diary.controller;
+package org.lf.diary.controller.home;
 
 import org.lf.diary.model.DiaryBookVO;
 import org.lf.diary.model.User;

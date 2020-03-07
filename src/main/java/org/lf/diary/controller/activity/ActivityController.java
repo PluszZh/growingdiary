@@ -1,4 +1,4 @@
-package org.lf.diary.controller;
+package org.lf.diary.controller.activity;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

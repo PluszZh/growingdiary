@@ -1,4 +1,4 @@
-package org.lf.diary.controller;
+package org.lf.diary.controller.authentication;
 
 import org.lf.diary.model.User;
 import org.lf.diary.service.UserService;
